@@ -1,0 +1,31 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: sans-serif;
+}
+.colorful-shadow {
+  box-shadow: 
+    0 0 5px rgba(255, 0, 0, 0.7),   /* Red */
+    0 0 10px rgba(255, 165, 0, 0.7), /* Orange */
+    0 0 15px rgba(255, 255, 0, 0.7), /* Yellow */
+    0 0 20px rgba(0, 255, 0, 0.7),   /* Green */
+    0 0 25px rgba(0, 255, 255, 0.7), /* Cyan */
+    0 0 30px rgba(0, 0, 255, 0.7),   /* Blue */
+    0 0 35px rgba(128, 0, 128, 0.7); /* Purple */
+}
+/* Add this to your CSS file */
+
+/* styles.css or your CSS file */
+
+.shadow-scroll {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Adjust shadow for scroll */
+}
+
+.transition-shadow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
